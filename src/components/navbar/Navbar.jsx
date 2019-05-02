@@ -12,14 +12,12 @@ class Navbar extends React.Component {
           <button type="button" className="btn black-background white">
             Projects
           </button>
-          <button
-              type="button"
-              className="btn black-background white"
-          >Resume</button>
-          <button
-            type="button"
-            className="btn black-background white"
-          >Contact</button>
+          <button type="button" className="btn black-background white">
+            Resume
+          </button>
+          <button type="button" className="btn black-background white">
+            Contact
+          </button>
         </div>
       </nav>
     );
