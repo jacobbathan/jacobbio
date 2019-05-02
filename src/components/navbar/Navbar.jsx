@@ -1,8 +1,28 @@
 import React from 'react';
+import './Navbar.css';
 
 class Navbar extends React.Component {
   render() {
-    return <div className="navBar">Testing Navbar</div>;
+    return (
+      <nav className="navBar">
+        <div>
+          <button type="button" className="btn black-background white">
+            Home
+          </button>
+          <button type="button" className="btn black-background white">
+            Projects
+          </button>
+          <button
+              type="button"
+              className="btn black-background white"
+          >Resume</button>
+          <button
+            type="button"
+            className="btn black-background white"
+          >Contact</button>
+        </div>
+      </nav>
+    );
   }
 }
 

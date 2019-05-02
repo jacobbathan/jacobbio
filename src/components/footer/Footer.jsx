@@ -4,11 +4,9 @@ class Footer extends React.Component {
   render() {
     return (
       <React.Fragment>
-          <div>Footer</div>
-          <br />
-          <div>
-              Contact
-          </div>
+        <div>Footer</div>
+        <br />
+        <div>Contact</div>
       </React.Fragment>
     );
   }
