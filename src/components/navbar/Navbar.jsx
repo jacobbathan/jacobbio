@@ -17,7 +17,10 @@ class Navbar extends React.Component {
           </button>
           <button type="button" className="btn black-background white">
             Contact
-          </button>
+        </button>
+        <button type='button' className="btn black-blackground white">
+            Other
+        </button>
         </div>
       </nav>
     );
