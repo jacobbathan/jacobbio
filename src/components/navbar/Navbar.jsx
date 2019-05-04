@@ -21,9 +21,6 @@ class Navbar extends React.Component {
         <button type='button' className="btn black-blackground white">
             Other
         </button>
-        <div>
-            Placeholder:
-        </div>
         </div>
       </nav>
     );
