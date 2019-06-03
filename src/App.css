@@ -31,3 +31,7 @@
     transform: rotate(360deg);
   }
 }
+
+.aboutContainer {
+    text-align: center;
+}

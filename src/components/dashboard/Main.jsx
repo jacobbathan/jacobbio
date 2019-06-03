@@ -4,7 +4,8 @@ class Main extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <div>Main Content</div>
+          <div>Main Content</div>
+          <br/>
       </React.Fragment>
     );
   }
