@@ -33,5 +33,35 @@
 }
 
 .aboutContainer {
-    text-align: center;
+  text-align: center;
+}
+
+.contactContainer {
+  background-color: #232c31;
+}
+
+.contactText {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.contactText a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.headerImage img {
+  width: 100%;
+  border-bottom: 5px solid #000;
+}
+
+.avatarImage img {
+  width: 15%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: -80px;
+  border-radius: 50%;
+  border: 5px solid #000000;
 }
