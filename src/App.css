@@ -1,67 +1,64 @@
-.App {
-  text-align: center;
+/*
+
+light: #4b6cb7
+dark: #182848
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #777;
+  padding: 30px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.aboutContainer {
-  text-align: center;
-}
-
-.contactContainer {
-  background-color: #232c31;
-}
-
-.contactText {
-  text-align: center;
-  font-size: 1.2rem;
-}
-
-.contactText a {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.headerImage img {
-  width: 100%;
-  border-bottom: 5px solid #000;
-}
-
-.avatarImage img {
-  width: 15%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.header {
+  height: 95vh;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(75, 108, 123, 0.8),
+      rgba(24, 40, 72, 0.8)
+    ),
+    url(../src/imgs/header1.jpg);
+  background-size: cover;
+  background-position: top;
   position: relative;
-  top: -80px;
-  border-radius: 50%;
-  border: 5px solid #000000;
+  clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+}
+
+.text-box {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.heading-primary {
+  color: #fff;
+  text-transform: uppercase;
+  backface-visibility: hidden;
+  margin-bottom: 60px;
+}
+
+.heading-primary-main {
+  display: block;
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: 20px;
+}
+
+.heading-primary-sub {
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 17px;
 }
