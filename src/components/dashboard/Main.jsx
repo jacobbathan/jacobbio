@@ -12,7 +12,7 @@ class Main extends React.Component {
           <h1 className='heading-primary'>
             <span className='heading-primary-main'>Jacob Bathan</span>
             <span className='heading-primary-sub'>
-              Web Developer, Professional Idiot
+              Web Developer & Professional Idiot
             </span>
           </h1>
         </div>
