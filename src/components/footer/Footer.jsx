@@ -12,7 +12,10 @@ class Footer extends React.Component {
               <div class='footer__navigation'>
                 <ul class='footer__list'>
                   <li class='footer__item'>
-                    <a href='#' className='footer__link'>
+                    <a
+                      href='https://www.linkedin.com/in/jacobbathan/'
+                      className='footer__link'
+                    >
                       Github
                     </a>
                   </li>
@@ -25,18 +28,19 @@ class Footer extends React.Component {
                     </a>
                   </li>
                   <li class='footer__item'>
-                    <a href='#' className='footer__link'>
+                    <a
+                      href='https://www.linkedin.com/in/jacobbathan/'
+                      className='footer__link'
+                    >
                       Linkedin
                     </a>
                   </li>
                   <li class='footer__item'>
-                    <a href='#' className='footer__link'>
+                    <a
+                      href='mailto:jacobbathan@gmail.com'
+                      className='footer__link'
+                    >
                       Email
-                    </a>
-                  </li>
-                  <li class='footer__item'>
-                    <a href='#' className='footer__link'>
-                      Something?
                     </a>
                   </li>
                 </ul>
@@ -46,15 +50,6 @@ class Footer extends React.Component {
               <p class='footer__copyright'>Built using React and Sass</p>
             </div>
           </div>
-
-          {/* <div className="contactText">
-            <a href="https://github.com/jacobbathan">github</a>{' '}
-            <a href="https://www.dropbox.com/home/Resumes?preview=resume-jbathan.pdf">
-              resume
-            </a>{' '}
-            <a href="https://www.linkedin.com/in/jacobbathan/">linkedin</a>{' '}
-            <a href="mailto:jacobbathan@gmail.com">mail</a>
-          </div> */}
         </div>
       </React.Fragment>
     );
