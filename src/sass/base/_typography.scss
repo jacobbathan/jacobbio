@@ -72,7 +72,8 @@ body {
 
 .paragraph {
   font-size: $default-font-size;
-  margin: 0 20em;
+  margin: auto;
+  width: 60vw;
 
   &:not(:last-child) {
     margin-bottom: 3rem;
