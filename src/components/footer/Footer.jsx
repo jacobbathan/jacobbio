@@ -12,7 +12,7 @@ class Footer extends React.Component {
                 <ul className='footer__list'>
                   <li className='footer__item'>
                     <a
-                      href='https://www.linkedin.com/in/jacobbathan/'
+                      href='https://github.com/jacobbathan'
                       className='footer__link'
                     >
                       Github
