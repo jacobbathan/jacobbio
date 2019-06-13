@@ -4,14 +4,13 @@ class Footer extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <h3>Contact</h3>
         <br />
         <div className='footer'>
-          <div class='row'>
-            <div class='col-1-of-2'>
-              <div class='footer__navigation'>
-                <ul class='footer__list'>
-                  <li class='footer__item'>
+          <div className='row'>
+            <div className='col-1-of-2'>
+              <div className='footer__navigation'>
+                <ul className='footer__list'>
+                  <li className='footer__item'>
                     <a
                       href='https://www.linkedin.com/in/jacobbathan/'
                       className='footer__link'
@@ -35,7 +34,7 @@ class Footer extends React.Component {
                       Linkedin
                     </a>
                   </li>
-                  <li class='footer__item'>
+                  <li className='footer__item'>
                     <a
                       href='mailto:jacobbathan@gmail.com'
                       className='footer__link'
@@ -46,8 +45,8 @@ class Footer extends React.Component {
                 </ul>
               </div>
             </div>
-            <div class='col-1-of-2'>
-              <p class='footer__copyright'>Built using React and Sass</p>
+            <div className='col-1-of-2'>
+              <p className='footer__copyright'>Built using React and Sass</p>
             </div>
           </div>
         </div>
