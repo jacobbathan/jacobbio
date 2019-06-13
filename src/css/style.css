@@ -98,7 +98,7 @@ body {
 .paragraph {
   font-size: 1.6rem;
   margin: auto;
-  width: 60vw; }
+  width: 80vw; }
   .paragraph:not(:last-child) {
     margin-bottom: 3rem; }
 
