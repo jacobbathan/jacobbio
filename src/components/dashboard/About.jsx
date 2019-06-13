@@ -37,11 +37,10 @@ class About extends React.Component {
                 pharetra. Donec id ipsum finibus, vulputate augue.
               </p>
               <h3 className='heading-tertiary u-margin-bottom-small'>
-                Technologies I've worked with
+                Technologies I've worked with:
               </h3>
               <p className='paragraph'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Asperiores nulla deserunt voluptatum nam.
+                React.js, jQuery, Node.js, Express, .Net Core, T-SQL, MongoDB
               </p>
             </div>
             <div className='col-1-of-2'>

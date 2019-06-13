@@ -9,7 +9,9 @@ class Main extends React.Component {
         <div className='text-box'>
           <h1 className='heading-primary'>
             <span className='heading-primary-main'>Jacob Bathan</span>
-            <span className='heading-primary-sub'>Web Developer</span>
+            <span className='heading-primary-sub'>
+              Full Stack Web Developer
+            </span>
           </h1>
         </div>
       </React.Fragment>
