@@ -8,10 +8,8 @@ class About extends React.Component {
           <div className='u-center-text u-margin-bottom-big'>
             <h2 className='heading-secondary'>About Me</h2>
           </div>
-
           <div className=''>
             <div className='col-1-of-2'>
-              {/* <h3 className='heading-tertiary u-margin-bottom-small' /> */}
               <p className='paragraph'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
                 at porttitor sapien, in venenatis leo. Sed porta nisl in nunc
