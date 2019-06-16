@@ -7,10 +7,8 @@ class Projects extends React.Component {
         <section className='section-about' style={{ marginTop: '5rem' }}>
           <div className='u-center-text u-margin-bottom-big'>
             <h2 className='heading-secondary'>Projects</h2>
-
             <div className=''>
               <div className='col-1-of-2'>
-                {/* <h3 className='heading-tertiary u-margin-bottom-small' /> */}
                 <p className='paragraph'>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
                   at porttitor sapien, in venenatis leo. Sed porta nisl in nunc
