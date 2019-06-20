@@ -11,29 +11,15 @@ class About extends React.Component {
           <div className=''>
             <div className='col-1-of-2'>
               <p className='paragraph'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-                at porttitor sapien, in venenatis leo. Sed porta nisl in nunc
-                dictum, in dignissim nisi viverra. Donec viverra porta justo,
-                eget finibus turpis semper non. Fusce euismod dui sed maximus
-                sodales. Pellentesque facilisis ipsum nunc, sed feugiat sem
-                volutpat feugiat. Donec pulvinar, purus id bibendum dignissim,
-                tortor turpis ultrices ex, sed blandit est lectus sit amet
-                magna. Curabitur eros leo, rutrum at vulputate eu, ultrices at
-                lacus. Etiam eget aliquam lacus. Praesent condimentum blandit mi
-                eu venenatis. Suspendisse odio nunc, fermentum sed scelerisque
-                et, consectetur in neque. Aliquam in ipsum non diam posuere
-                cursus. Suspendisse potenti. Nullam congue tempor erat, sed
-                sodales odio elementum sit amet. Duis porttitor, risus vel
-                eleifend efficitur, ligula nibh sollicitudin mauris, vel
-                fermentum metus nisl id ipsum. In hac habitasse platea dictumst.
-                Vestibulum lobortis nec nisi sed eleifend. Proin placerat elit
-                id mi consequat, at vestibulum ex sodales. Lorem ipsum dolor sit
-                amet, consectetur adipiscing elit. Cras vel condimentum nunc,
-                interdum pellentesque eros. Morbi vitae gravida orci, eu mollis
-                libero. Duis viverra sit amet erat vel rhoncus. Donec
-                pellentesque justo eget diam vehicula, vitae fermentum or
-                pharetra. Donec id ipsum finibus, vulputate augue.
+                My name is Jacob, I am a web developer who is works with React,
+                Node.js, ExpressJS, and MongoDB. I am also able to work with
+                .NET Core and relational databases like MSSQL. I am a US Navy
+                Veteran who joined the medical field after the service, but I
+                found my true passion of coding when it was recommended to me by
+                a friend of mine. I've been hooked ever since, learning and
+                building as much as I can!
               </p>
+              <p className='paragraph'>Testing paragraph 2</p>
               <h3 className='heading-tertiary u-margin-bottom-small'>
                 Technologies I've worked with:
               </h3>
