@@ -19,7 +19,17 @@ class About extends React.Component {
                 a friend of mine. I've been hooked ever since, learning and
                 building as much as I can!
               </p>
-              <p className='paragraph'>Testing paragraph 2</p>
+              <p className='paragraph'>
+                I taught myself how to code and surrounded myself with
+                likeminded individuals who would help push me forward in my
+                career. To further advance my skills, I worked for an e-commerce
+                start up in Los Angeles called OutlayR, a site where social
+                media influencers would connect with merchants to more easily
+                sell their merchandise. I worked along side a team of 16 other
+                people, practicing Agile/Scrum methodolgies, ensuring the MVP
+                was able to be launched properly. The product was made using
+                React.js, ASP.NET Core 2, Node.js, and Microsoft SQL Server.
+              </p>
               <h3 className='heading-tertiary u-margin-bottom-small'>
                 Technologies I've worked with:
               </h3>
