@@ -11,7 +11,7 @@ class About extends React.Component {
           <div className=''>
             <div className='col-1-of-2'>
               <p className='paragraph'>
-                My name is Jacob, I am a web developer who is works with React,
+                My name is Jacob, I am a web developer who works with React,
                 Node.js, ExpressJS, and MongoDB. I am also able to work with
                 .NET Core and relational databases like MSSQL. I am a US Navy
                 Veteran who joined the medical field after the service, but I

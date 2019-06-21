@@ -29,10 +29,6 @@ class Projects extends React.Component {
                             social media-based campaigns. On the other hand, it
                             allows influencers to search for and post in
                             specific campaigns that fit within their field.
-                            OutlayR simplifies the broad world of social media
-                            by making introductions between merchants and
-                            influencers more accessible, therefore strengthening
-                            sales and widening the audience for both.
                           </div>
                         </div>
                         <div className='card__side card__side--back card__side--back-1'>
