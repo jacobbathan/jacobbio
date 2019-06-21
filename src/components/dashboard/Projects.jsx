@@ -4,122 +4,143 @@ class Projects extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <section className='section-about' style={{ marginTop: '5rem' }}>
-          <div className='u-center-text u-margin-bottom-big'>
-            <h2 className='heading-secondary'>Projects</h2>
-            <div className=''>
-              <div className='col-1-of-2'>
-                <p className='paragraph'>
-                  <div class='row'>
-                    <div class='col-1-of-3'>
-                      <div class='card'>
-                        <div class='card__side card__side--front'>
-                          <div class='card__picture card__picture--1'>
+        <section className='section-tours' id='section-tours'>
+          <section className='section-about' style={{ marginTop: '5rem' }}>
+            <div className='u-center-text u-margin-bottom-big'>
+              <h2 className='heading-secondary'>Projects</h2>
+              <div className=''>
+                <div className='col-1-of-2'>
+                  <div className='row'>
+                    <div className='col-1-of-3'>
+                      <div className='card'>
+                        <div className='card__side card__side--front'>
+                          <div className='card__picture card__picture--1'>
                             &nbsp;
                           </div>
-                          <h4 class='card__heading'>
-                            <span class='card__heading-span card__heading-span--1'>
-                              The Sea Explorer
+                          <h4 className='card__heading'>
+                            <span className='card__heading-span card__heading-span--1'>
+                              Outlayr
                             </span>
                           </h4>
-                          <div class='card__details'>
-                            <ul>
-                              <li>3 day tours</li>
-                              <li>Up to 30 people</li>
-                              <li>2 tour guides</li>
-                              <li>Sleep in cozy hotels</li>
-                              <li>Difficulty: easy</li>
-                            </ul>
+                          <div className='card__details'>
+                            OutlayR is an application that provides social
+                            commerce merchants an easier way to reach social
+                            media influencers for collaborations and other
+                            social media-based campaigns. On the other hand, it
+                            allows influencers to search for and post in
+                            specific campaigns that fit within their field.
+                            OutlayR simplifies the broad world of social media
+                            by making introductions between merchants and
+                            influencers more accessible, therefore strengthening
+                            sales and widening the audience for both.
                           </div>
                         </div>
-                        <div class='card__side card__side--back card__side--back-1'>
-                          <div class='card__cta'>
-                            <div class='card__price-box'>
-                              <p class='card__price-only'>Only</p>
-                              <p class='card__price-value'>$297</p>
-                            </div>
-                            <a href='#popup' class='btn btn--white'>
-                              Book now!
+                        <div className='card__side card__side--back card__side--back-1'>
+                          <div className='card__cta'>
+                            {/* <div className='card__price-box'>
+                              <p className='card__price-only'>Only</p>
+                              <p className='card__price-value'>$297</p>
+                            </div> */}
+                            <a
+                              href='http://outlayr.azurewebsites.net/'
+                              className='btn btn--white'
+                            >
+                              View Live Site
+                            </a>
+                            <br />
+                            <a
+                              href='https://github.com'
+                              className='btn btn--white'
+                              style={{ marginTop: '5rem' }}
+                            >
+                              View Repository
                             </a>
                           </div>
                         </div>
                       </div>
                     </div>
-
-                    <div class='col-1-of-3'>
-                      <div class='card'>
-                        <div class='card__side card__side--front'>
-                          <div class='card__picture card__picture--2'>
+                    <div className='col-1-of-3'>
+                      <div className='card'>
+                        <div className='card__side card__side--front'>
+                          <div className='card__picture card__picture--2'>
                             &nbsp;
                           </div>
-                          <h4 class='card__heading'>
-                            <span class='card__heading-span card__heading-span--2'>
-                              The Forest Hiker
+                          <h4 className='card__heading'>
+                            <span className='card__heading-span card__heading-span--2'>
+                              Hope for the World
                             </span>
                           </h4>
-                          <div class='card__details'>
-                            <ul>
-                              <li>7 day tours</li>
-                              <li>Up to 40 people</li>
-                              <li>6 tour guides</li>
-                              <li>Sleep in provided tents</li>
-                              <li>Difficulty: medium</li>
-                            </ul>
-                          </div>
+                          <div className='card__details'>Dope church site</div>
                         </div>
-                        <div class='card__side card__side--back card__side--back-2'>
-                          <div class='card__cta'>
-                            <div class='card__price-box'>
-                              <p class='card__price-only'>Only</p>
-                              <p class='card__price-value'>$497</p>
-                            </div>
-                            <a href='#popup' class='btn btn--white'>
-                              Book now!
+                        <div className='card__side card__side--back card__side--back-2'>
+                          <div className='card__cta'>
+                            {/* <div className='card__price-box'>
+                              <p className='card__price-only'>Only</p>
+                              <p className='card__price-value'>$497</p>
+                            </div> */}
+                            <a
+                              href='https://hopefortheworld.herokuapp.com'
+                              className='btn btn--white'
+                            >
+                              View Live
+                            </a>
+                            <a
+                              href='https://github.com'
+                              className='btn btn--white'
+                              style={{ marginTop: '5rem' }}
+                            >
+                              View Repository
                             </a>
                           </div>
                         </div>
                       </div>
                     </div>
-
-                    <div class='col-1-of-3'>
-                      <div class='card'>
-                        <div class='card__side card__side--front'>
-                          <div class='card__picture card__picture--3'>
+                    <div className='col-1-of-3'>
+                      <div className='card'>
+                        <div className='card__side card__side--front'>
+                          <div className='card__picture card__picture--3'>
                             &nbsp;
                           </div>
-                          <h4 class='card__heading'>
-                            <span class='card__heading-span card__heading-span--3'>
-                              The Snow Adventurer
+                          <h4 className='card__heading'>
+                            <span className='card__heading-span card__heading-span--3'>
+                              Other project thing
                             </span>
                           </h4>
-                          <div class='card__details'>
-                            <ul>
-                              <li>5 day tours</li>
-                              <li>Up to 15 people</li>
-                              <li>3 tour guides</li>
-                              <li>Sleep in provided tents</li>
-                              <li>Difficulty: hard</li>
-                            </ul>
+                          <div className='card__details'>
+                            This is where text would go if I had some third
+                            project to show off but I don't, so heres some
+                            placeholder text for now look at this samoyed hes so
+                            majestic, ya?
                           </div>
                         </div>
-                        <div class='card__side card__side--back card__side--back-3'>
-                          <div class='card__cta'>
-                            <div class='card__price-box'>
-                              <p class='card__price-only'>Only</p>
-                              <p class='card__price-value'>$897</p>
-                            </div>
-                            <a href='#popup' class='btn btn--white'>
-                              Book now!
+                        <div className='card__side card__side--back card__side--back-3'>
+                          <div className='card__cta'>
+                            {/* <div className='card__price-box'>
+                              <p className='card__price-only'>Only</p>
+                              <p className='card__price-value'>$897</p>
+                            </div> */}
+                            <a
+                              href='https://github.com'
+                              className='btn btn--white'
+                            >
+                              View Live
+                            </a>
+                            <a
+                              href='https://github.com/jacobbathan'
+                              className='btn btn--white'
+                              style={{ marginTop: '5rem' }}
+                            >
+                              View Repository
                             </a>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                </p>
+                </div>
               </div>
             </div>
-          </div>
+          </section>
         </section>
       </React.Fragment>
     );
