@@ -35,10 +35,6 @@ class Projects extends React.Component {
                         </div>
                         <div className='card__side card__side--back card__side--back-1'>
                           <div className='card__cta'>
-                            {/* <div className='card__price-box'>
-                              <p className='card__price-only'>Only</p>
-                              <p className='card__price-value'>$297</p>
-                            </div> */}
                             <a
                               href='http://outlayr.azurewebsites.net/'
                               className='btn btn--white'
@@ -68,14 +64,14 @@ class Projects extends React.Component {
                               Hope for the World
                             </span>
                           </h4>
-                          <div className='card__details'>Dope church site</div>
+                          <div className='card__details'>
+                            Static page landing site for a local church based in
+                            Los Angeles. Built using React.js and styled using
+                            Sass.
+                          </div>
                         </div>
                         <div className='card__side card__side--back card__side--back-2'>
                           <div className='card__cta'>
-                            {/* <div className='card__price-box'>
-                              <p className='card__price-only'>Only</p>
-                              <p className='card__price-value'>$497</p>
-                            </div> */}
                             <a
                               href='https://hopefortheworld.herokuapp.com'
                               className='btn btn--white'
