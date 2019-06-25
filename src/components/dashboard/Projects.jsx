@@ -7,7 +7,9 @@ class Projects extends React.Component {
         <section className='section-tours' id='section-tours'>
           <section className='section-about' style={{ marginTop: '5rem' }}>
             <div className='u-center-text u-margin-bottom-big'>
-              <h2 className='heading-secondary'>Projects</h2>
+              <h2 className='heading-secondary' style={{ margin: '3rem' }}>
+                Projects
+              </h2>
               <div className=''>
                 <div className='col-1-of-2'>
                   <div className='row'>
@@ -111,10 +113,6 @@ class Projects extends React.Component {
                         </div>
                         <div className='card__side card__side--back card__side--back-3'>
                           <div className='card__cta'>
-                            {/* <div className='card__price-box'>
-                              <p className='card__price-only'>Only</p>
-                              <p className='card__price-value'>$897</p>
-                            </div> */}
                             <a
                               href='https://github.com'
                               className='btn btn--white'
