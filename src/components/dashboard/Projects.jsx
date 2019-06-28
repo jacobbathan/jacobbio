@@ -42,13 +42,13 @@ class Projects extends React.Component {
                               View Live Site
                             </a>
                             <br />
-                            <a
+                            {/* <a
                               href='https://github.com'
                               className='btn btn--white'
                               style={{ marginTop: '5rem' }}
                             >
                               View Repository
-                            </a>
+                            </a> */}
                           </div>
                         </div>
                       </div>
@@ -76,15 +76,15 @@ class Projects extends React.Component {
                               href='https://hopefortheworld.herokuapp.com'
                               className='btn btn--white'
                             >
-                              View Live
+                              View Live (Early Draft)
                             </a>
-                            <a
+                            {/* <a
                               href='https://github.com'
                               className='btn btn--white'
                               style={{ marginTop: '5rem' }}
                             >
                               View Repository
-                            </a>
+                            </a> */}
                           </div>
                         </div>
                       </div>
