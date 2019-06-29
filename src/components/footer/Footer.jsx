@@ -42,6 +42,11 @@ class Footer extends React.Component {
                       Email
                     </a>
                   </li>
+                  <li className='footer__item'>
+                    <a href='www.google.com' className='footer__link'>
+                      Blog
+                    </a>
+                  </li>
                 </ul>
               </div>
             </div>

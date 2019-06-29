@@ -7,7 +7,9 @@ class Projects extends React.Component {
         <section className='section-tours' id='section-tours'>
           <section className='section-about' style={{ marginTop: '5rem' }}>
             <div className='u-center-text u-margin-bottom-big'>
-              <h2 className='heading-secondary'>Projects</h2>
+              <h2 className='heading-secondary' style={{ margin: '3rem' }}>
+                Projects
+              </h2>
               <div className=''>
                 <div className='col-1-of-2'>
                   <div className='row'>
@@ -33,10 +35,6 @@ class Projects extends React.Component {
                         </div>
                         <div className='card__side card__side--back card__side--back-1'>
                           <div className='card__cta'>
-                            {/* <div className='card__price-box'>
-                              <p className='card__price-only'>Only</p>
-                              <p className='card__price-value'>$297</p>
-                            </div> */}
                             <a
                               href='http://outlayr.azurewebsites.net/'
                               className='btn btn--white'
@@ -44,13 +42,13 @@ class Projects extends React.Component {
                               View Live Site
                             </a>
                             <br />
-                            <a
+                            {/* <a
                               href='https://github.com'
                               className='btn btn--white'
                               style={{ marginTop: '5rem' }}
                             >
                               View Repository
-                            </a>
+                            </a> */}
                           </div>
                         </div>
                       </div>
@@ -76,23 +74,19 @@ class Projects extends React.Component {
                         </div>
                         <div className='card__side card__side--back card__side--back-2'>
                           <div className='card__cta'>
-                            {/* <div className='card__price-box'>
-                              <p className='card__price-only'>Only</p>
-                              <p className='card__price-value'>$497</p>
-                            </div> */}
                             <a
                               href='https://hopefortheworld.herokuapp.com'
                               className='btn btn--white'
                             >
-                              View Live
+                              View Live (Early Draft)
                             </a>
-                            <a
+                            {/* <a
                               href='https://github.com'
                               className='btn btn--white'
                               style={{ marginTop: '5rem' }}
                             >
                               View Repository
-                            </a>
+                            </a> */}
                           </div>
                         </div>
                       </div>
@@ -118,10 +112,6 @@ class Projects extends React.Component {
                         </div>
                         <div className='card__side card__side--back card__side--back-3'>
                           <div className='card__cta'>
-                            {/* <div className='card__price-box'>
-                              <p className='card__price-only'>Only</p>
-                              <p className='card__price-value'>$897</p>
-                            </div> */}
                             <a
                               href='https://github.com'
                               className='btn btn--white'
