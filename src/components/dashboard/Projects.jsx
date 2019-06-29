@@ -66,7 +66,13 @@ class Projects extends React.Component {
                               Hope for the World
                             </span>
                           </h4>
-                          <div className='card__details'>Dope church site</div>
+                          <div className='card__details'>
+                            Designed and deployed a static site using React for
+                            a local religious organization, displaying various
+                            information for new and current members. Constructed
+                            using React and Sass, ensuring proper responsiveness
+                            across multiple devices
+                          </div>
                         </div>
                         <div className='card__side card__side--back card__side--back-2'>
                           <div className='card__cta'>
@@ -99,14 +105,15 @@ class Projects extends React.Component {
                           </div>
                           <h4 className='card__heading'>
                             <span className='card__heading-span card__heading-span--3'>
-                              Other project thing
+                              Discord-Plays-Bot
                             </span>
                           </h4>
                           <div className='card__details'>
-                            This is where text would go if I had some third
-                            project to show off but I don't, so heres some
-                            placeholder text for now look at this samoyed hes so
-                            majestic, ya?
+                            Discord plays is an entry in the Discord Hack Week
+                            that lets people load the bot in their discord
+                            channel and play a game thats streaming live on
+                            twitch! Built using Node.js, Express, and Discord.js
+                            Bot API
                           </div>
                         </div>
                         <div className='card__side card__side--back card__side--back-3'>
@@ -119,15 +126,15 @@ class Projects extends React.Component {
                               href='https://github.com'
                               className='btn btn--white'
                             >
-                              View Live
+                              View Repository
                             </a>
-                            <a
+                            {/* <a
                               href='https://github.com/jacobbathan'
                               className='btn btn--white'
                               style={{ marginTop: '5rem' }}
                             >
                               View Repository
-                            </a>
+                            </a> */}
                           </div>
                         </div>
                       </div>
