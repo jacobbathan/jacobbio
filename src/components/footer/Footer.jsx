@@ -43,7 +43,7 @@ class Footer extends React.Component {
                     </a>
                   </li>
                   <li className='footer__item'>
-                    <a href='www.google.com' className='footer__link'>
+                    <a href='https://blog.jacobb.io' className='footer__link'>
                       Blog
                     </a>
                   </li>
