@@ -30,12 +30,6 @@ class About extends React.Component {
                 was able to be launched properly. The product was made using
                 React.js, ASP.NET Core 2, Node.js, and Microsoft SQL Server.
               </p>
-              <h3 className='heading-tertiary u-margin-bottom-small'>
-                Technologies I've worked with:
-              </h3>
-              <p className='paragraph'>
-                React.js, jQuery, Node.js, Express, .Net Core, T-SQL, MongoDB
-              </p>
             </div>
             <div className='col-1-of-2'>
               <div className='composition' />
