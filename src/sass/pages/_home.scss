@@ -18,12 +18,12 @@
     ),
     url(../imgs/technologies.jpg);
   background-size: cover;
-  transform: skewY(-7deg);
+  transform: skewY(-5deg);
   margin-top: 10rem;
   margin-bottom: 10rem;
 
   & > * {
-    transform: skewY(7deg);
+    transform: skewY(5deg);
   }
 
   @include respond(tab-port) {

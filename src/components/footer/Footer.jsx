@@ -18,7 +18,7 @@ class Footer extends React.Component {
                       Github
                     </a>
                   </li>
-                  <li class='footer__item'>
+                  <li className='footer__item'>
                     <a
                       href='https://www.dropbox.com/s/mmw8ucxa7q7slkj/resume-jbathan.pdf?dl=0'
                       className='footer__link'
@@ -26,7 +26,7 @@ class Footer extends React.Component {
                       Resume
                     </a>
                   </li>
-                  <li class='footer__item'>
+                  <li className='footer__item'>
                     <a
                       href='https://www.linkedin.com/in/jacobbathan/'
                       className='footer__link'
