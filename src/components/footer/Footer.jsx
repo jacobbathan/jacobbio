@@ -20,7 +20,7 @@ class Footer extends React.Component {
                   </li>
                   <li className='footer__item'>
                     <a
-                      href='https://www.dropbox.com/s/mmw8ucxa7q7slkj/resume-jbathan.pdf?dl=0'
+                      href='https://www.dropbox.com/s/i2tq97jtd0qp63q/jbathan-current.pdf?dl=0'
                       className='footer__link'
                     >
                       Resume
@@ -54,6 +54,7 @@ class Footer extends React.Component {
               <p className='footer__copyright'>Built using React and Sass</p>
             </div>
           </div>
+          <div style={{ textAlign: 'center' }}>© 2019 Jacob Bathan</div>
         </div>
       </React.Fragment>
     );

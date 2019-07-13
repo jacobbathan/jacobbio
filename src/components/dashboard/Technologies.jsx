@@ -71,6 +71,7 @@ class Technologies extends React.Component {
                     <li>Git</li>
                     <li>Team Foundation Server</li>
                     <li>AWS S3 / RDS</li>
+                    <li>---</li>
                   </ul>
                 </div>
               </div>
