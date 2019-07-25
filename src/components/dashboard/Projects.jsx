@@ -75,7 +75,7 @@ class Projects extends React.Component {
                         <div className='card__side card__side--back card__side--back-2'>
                           <div className='card__cta'>
                             <a
-                              href='https://hopefortheworld.herokuapp.com'
+                              href='https://hopefortheworld.net'
                               className='btn btn--white'
                             >
                               View Live (Early Draft)
