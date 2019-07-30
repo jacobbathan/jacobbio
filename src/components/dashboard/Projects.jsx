@@ -78,7 +78,7 @@ class Projects extends React.Component {
                               href='https://hopefortheworld.net'
                               className='btn btn--white'
                             >
-                              View Live (Early Draft)
+                              View Live
                             </a>
                             {/* <a
                               href='https://github.com'
