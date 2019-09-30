@@ -25,7 +25,6 @@ class Technologies extends React.Component {
                 </div>
               </div>
             </div>
-
             <div className='col-1-of-4'>
               <div className='feature-box'>
                 <IoIosGitNetwork className='feature-box__icon' />
@@ -42,7 +41,6 @@ class Technologies extends React.Component {
                 </div>
               </div>
             </div>
-
             <div className='col-1-of-4'>
               <div className='feature-box'>
                 <FiDatabase className='feature-box__icon' />
@@ -59,7 +57,6 @@ class Technologies extends React.Component {
                 </div>
               </div>
             </div>
-
             <div className='col-1-of-4'>
               <div className='feature-box'>
                 <GoCloudUpload className='feature-box__icon' />

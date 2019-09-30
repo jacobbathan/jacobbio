@@ -1,5 +1,5 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-Hopefully adding the gatsby blog soon. It's goals.
+I added the blog. do the blog
 
 ## Available Scripts
 
