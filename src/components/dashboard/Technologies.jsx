@@ -36,8 +36,8 @@ class Technologies extends React.Component {
                   <ul>
                     <li>NodeJS</li>
                     <li>Express</li>
+                    <li>Python</li> 
                     <li>C#</li>
-                    <li>.Net Core</li>
                   </ul>
                 </div>
               </div>
