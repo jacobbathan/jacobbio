@@ -54,7 +54,9 @@ class Footer extends React.Component {
               <p className='footer__copyright'>Built using React and Sass</p>
             </div>
           </div>
-          <div style={{ textAlign: 'center' }}>© 2019 Jacob Bathan</div>
+          <div style={{ textAlign: 'center' }}>
+            © {new Date().getFullYear()} Jacob Bathan
+          </div>
         </div>
       </React.Fragment>
     );
